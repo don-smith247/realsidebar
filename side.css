@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #170f34;
+    color: white;
+}
+.side-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-right: solid 1px rgb(241, 237, 237);
+    width: 270px;
+    padding: 50px;
+    align-items: center;
+    
+}
+.sside{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 200px;
+    padding-left: 40px;
+}
+.ssside{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 210px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: darkorchid;
+    padding-left: 40px;
+
+}
+.vvv{
+    width: 170px;
+    height: 140px;
+    border-radius: 15px;
+    background-color: gainsboro;
+}
+@media screen and (max-width: 950px){
+    .side-div{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
